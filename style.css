@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
