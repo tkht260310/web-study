@@ -28,6 +28,11 @@ article {
   border-radius: 8px;
 }
 
+article img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 article:hover {
   border-color: #666;
 }
