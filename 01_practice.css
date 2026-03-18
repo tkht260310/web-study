@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  width: 1000px;
+}
+.articles {
+  display: flex;
+  gap: 20px;
+}
+
+article {
+  width: 300px;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article img {
+  width: 100px;
+  height: auto;
+}
+
+article h3 {
+  size: 10px;
+  margin: 10px 0 5px;
+}
+aricle p {
+  margin: 0;
+}
+
+article:hover {
+  opacity: 0.8;
+}
