@@ -1,61 +1,14 @@
-body {
-  font-family: sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-header {
-  margin-bottom: 40px;
-}
-
-.menu {
+.card-list {
   display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 1 250px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.articles {
-  display: flex;
-  gap: 20px;
-}
-
-article {
-  margin-bottom: 30px;
-  flex: 1;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-article img {
+.card img {
   width: 100%;
-  border-radius: 8px;
-}
-
-article:hover {
-  border-color: #666;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  margin-top: 0px;
-}
-
-footer {
-  margin-top: 50px;
-  padding: 20px 0;
-  border-top: 1px solid #ccc;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
+  height: auto;
 }
