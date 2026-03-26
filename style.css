@@ -1,14 +1,14 @@
-.card-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.card {
-  flex: 1 1 250px;
-  padding: 20px;
-  box-sizing: border-box;
+.message {
+  font-size: 24px;
 }
 
-.card img {
-  width: 100%;
-  height: auto;
+.off {
+  color: gray;
+}
+.on {
+  color: gray;
+}
+
+.box {
+  text-align: center;
 }
