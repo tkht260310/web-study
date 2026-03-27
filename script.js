@@ -1,14 +1,25 @@
-function changeMessage() {
-  var message = document.getElementById("message");
+let state = 0;
 
-  if (message.textContent === "未表示") {
-    message.textContent = "こんにちは";
-    message.className = "on";
-  } else {
-    message.textContent = "未表示";
-    message.className = "off";
+function change() {
+  const msg = document.getElementById("message");
+
+  state = state + 1;
+  if (state > 2) state = 0;
+
+  if (state === 0) {
+    msg.textContent = "未表示";
+    msg.className = "state0";
+  }
+
+  if (state === 1) {
+    msg.textContent = "こんにちは";
+    msg.className = "state1";
+  }
+
+  if (state === 2) {
+    msg.textContent = "こんばんは";
+    msg.className = "state2";
   }
 }
 
-var button = document.getElementById("toggleButton");
-button.addEventListener("click", changeMessage);
+document.getElementById("btn").addEventListener("click", change);
