@@ -52,3 +52,28 @@
 ## 一言
 
 動かせた！
+
+## 2026-03-28
+
+学習時間：２時間
+合計：１５時間
+
+###３状態トグル（HTML / CSS / JavaScript)
+
+#### 詰まった点
+
+-  id・class名の命名に戸惑った
+
+- commit messageを確認せずpush してしまった
+
+#### 本質
+
+-id →　JSが掴むため　・classが着替えるため
+
+-push後の修正はgit commit --amend + git push --force
+
+- const = 変わらない　/let  = 変わる　/ var = 使わない
+
+#### 明日のタスク
+
+-
