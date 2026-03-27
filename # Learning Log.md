@@ -68,12 +68,19 @@
 
 #### 本質
 
--id →　JSが掴むため　・classが着替えるため
+- let state = 0　→　今どの状態かを管理する数字
+- getElementById　→　HTMLの部品をJSが掴む
+- textContent →　テキストを書き換える
+- classname　→　クラスを切り替えて見た目を変える
+- addEventListner　→　クリックを検知して関数を実行する
 
--push後の修正はgit commit --amend + git push --force
+#### その他の理解
 
+- id →　JSが掴むため　
+- class　→　CSSが着替えるため
+- push後の修正はgit commit --amend + git push --force
 - const = 変わらない　/let  = 変わる　/ var = 使わない
 
 #### 明日のタスク
 
--
+## カウンターを自分で設計・実装する
