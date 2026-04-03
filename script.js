@@ -1,25 +1,15 @@
-let state = 0;
+let count = 0;
+const minusButton = document.getElementById("minus");
+const plusButton = document.getElementById("plus");
 
-function change() {
-  const msg = document.getElementById("message");
+plusButton.addEventListener("click", function () {
+  count++;
+  document.getElementById("count").textContent = count;
+});
 
-  state = state + 1;
-  if (state > 2) state = 0;
-
-  if (state === 0) {
-    msg.textContent = "未表示";
-    msg.className = "state0";
+minusButton.addEventListener("click", function () {
+  if (count > 0) {
+    count--;
+    document.getElementById("count").textContent = count;
   }
-
-  if (state === 1) {
-    msg.textContent = "こんにちは";
-    msg.className = "state1";
-  }
-
-  if (state === 2) {
-    msg.textContent = "こんばんは";
-    msg.className = "state2";
-  }
-}
-
-document.getElementById("btn").addEventListener("click", change);
+});
