@@ -1,11 +1,6 @@
-.state0 {
-  color: gray;
+.button {
+  display: flex;
 }
-
-.state1 {
-  color: blue;
-}
-
-.state2 {
-  color: green;
+button:hover {
+  background-color: blue;
 }
