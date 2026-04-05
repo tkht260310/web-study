@@ -1,15 +1,8 @@
-let count = 0;
-const minusButton = document.getElementById("minus");
-const plusButton = document.getElementById("plus");
+const btn = document.getElementById("submit-btn");
+btn.addEventListner("click", function () {
+  const input = document.getElementById("text-input");
+  const text = document.getElementById("text-input").value;
+  const output = document.getElementById("output");
 
-plusButton.addEventListener("click", function () {
-  count++;
-  document.getElementById("count").textContent = count;
-});
-
-minusButton.addEventListener("click", function () {
-  if (count > 0) {
-    count--;
-    document.getElementById("count").textContent = count;
-  }
+  output.textContent = text;
 });
